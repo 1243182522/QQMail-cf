@@ -3,44 +3,37 @@
   background: #0e0e0f;
   position: relative;
 }
-
 #header .headertop {
   height: 99px;
   border-bottom: 1px solid #333;
 }
-
 #header .headertop .topmain {
   width: 1280px;
   margin: 0 auto;
 }
-
 #header .headertop .topmain .cflogo {
   float: left;
   height: 75px;
   margin-right: 10px;
   margin-top: 12px;
 }
-
 #header .headertop .topmain .qqmall {
   margin-top: 20px;
   height: 60px;
   float: left;
 }
-
 #header .headertop .topmain .cart {
   float: right;
   width: 73px;
   height: 24px;
   margin-top: 47px;
 }
-
 #header .headertop .topmain .login {
   width: 84px;
   height: 24px;
   float: right;
   margin: 47px 20px 0px 50px;
 }
-
 #header .headertop .topmain .search {
   width: 240px;
   height: 40px;
@@ -94,29 +87,24 @@
   width: 1280px;
   margin: 0 auto;
 }
-
 #header .headerbottom .bottommain .headerbottom-left {
   width: 774px;
   float: left;
 }
-
 #header .headerbottom .bottommain .headerbottom-left li {
   float: left;
   width: 129px;
   line-height: 56px;
 }
-
 #header .headerbottom .bottommain .headerbottom-left li a {
   display: block;
   color: #a6a6a6;
   font-size: 16px;
   text-align: center;
 }
-
 #header .headerbottom .bottommain .headerbottom-left li a:hover {
   background-image: repeating-linear-gradient(to top, orange 0, orange 10%, transparent 10%, transparent 100%);
 }
-
 #header .headerbottom .bottommain .all {
   float: right;
   display: block;
@@ -125,7 +113,6 @@
   text-align: center;
   line-height: 56px;
 }
-
 #header .headerbottom .bottommain .all .icon-xialaanniu {
   color: orange;
 }
@@ -135,15 +122,14 @@
   width: 100%;
   position: absolute;
   top: 100%;
-  display: none;
+  z-index: 9999;
+  background: #ffffff;
 }
-
 #header .secondnav .navmain {
   margin: 0 auto;
   width: 400px;
   height: 445px;
 }
-
 #header .secondnav .navmain .list {
   float: left;
   padding: 0 10px;
@@ -153,7 +139,6 @@
   display: table-cell;
   vertical-align: top;
 }
-
 #header .secondnav .navmain .title {
   margin: 0 auto;
   display: block;
@@ -172,23 +157,192 @@
 #header .secondnav .navmain .list ul {
   margin-top: 15px;
 }
-
 #header .secondnav .navmain .list ul li {
   line-height: 30px;
   font-size: 14px;
   color: #333;
 }
-
 #header .secondnav .navmain .list ul li:hover a {
   text-decoration: underline;
 }
 
 #body {
-  padding-top: 50px;
-  margin: -30px auto 0;
-  background: #ffffff;
+  margin: 0 auto;
+  min-height: 346px;
+  height: auto;
+  min-width: 1240px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#body .banner .slidebann {
+  margin: 0 auto;
+  min-height: 346px;
+  height: auto;
+  min-width: 1240px;
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+  position: relative;
+  background: #202020;
+  padding: 0;
+}
+
+#body .banner .slidebann a {
+  margin: 0 auto;
+  min-height: 346px;
+  height: auto;
+  min-width: 1240px;
+  width: 100%;
+}
+
+#body .banner .slidebann a img {
+  margin: 0 auto;
+  min-height: 346px;
+  height: auto;
+  min-width: 1240px;
+  width: 100%;
+  vertical-align: bottom;
+  font-size: 0;
+  border: 0;
+}
+
+#body .banner .slidebann .flash_bar {
+  width: 180px;
+  margin-left: -90px;
+  z-index: 69;
+  height: 5px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 45px;
+  left: 50%;
+  text-align: center;
+}
+
+.flash_bar .no {
+  margin: 0 4px;
+  display: block;
+  float: left;
+  width: 28px;
+  height: 4px;
+  cursor: pointer;
+  background: white;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.flash_bar .dq {
+  /* margin: 0 4px; */
+  display: block;
+  float: left;
+  width: 28px;
+  height: 4px;
+  cursor: pointer;
+  background: #ffc933;
+}
+
+.mid {
   width: 1280px;
-  border-radius: 5px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.index-main {
+  margin-top: -30px;
+  padding-bottom: 50px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.index-tit {
+  padding: 50px 50px 0;
+  line-height: 32px;
+  font-size: 14px;
+}
+
+.index-tit h3 {
+  margin-right: 20px;
+  display: inline-block;
+  font-weight: bold;
+  color: #333;
+  font-size: 28px;
+}
+
+.index-tit .link-more {
+  font-size: 16px;
+  color: #333;
+  line-height: 30px;
+}
+
+.fr {
+  float: right;
+}
+
+.adbox {
+  margin: 15px auto 0;
+  width: 1180px;
+  height: 240px;
+}
+
+.adbox .ad-link {
+  display: block;
+}
+
+img {
+  display: block;
+}
+
+.good-list.index-glist {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.good-list ul {
+  margin-left: 40px;
+  width: 1200px;
+  height: 360px;
+}
+
+.good-list ul li {
+  margin: 0 10px 20px;
+  float: left;
+  width: 280px;
+  height: 356px;
+  border: 1px solid #eee;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+  overflow: hidden;
+}
+
+.good-list.index-glist ul li {
+  margin-right: 7px;
+  margin-bottom: 0;
+}
+
+.good-list ul li .good-info {
+  margin-top: 18px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.good-list ul li p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 24px;
+}
+
+.good-list ul li .good-name {
+  font-size: 14px;
+  color: #444;
+}
+
+.good-list ul li .good-pri {
+  line-height: 25px;
+  font-size: 16px;
+  color: #f7545f;
 }
 
 #footer {
@@ -197,7 +351,6 @@
   height: 233px;
   background: #0e0e0f;
 }
-
 #footer .main {
   width: 1280px;
   height: 100%;
@@ -205,7 +358,6 @@
   margin: 0 auto;
   position: relative;
 }
-
 #footer .main .logo {
   display: block;
   float: left;
@@ -215,7 +367,6 @@
   width: 213px;
   height: 64px;
 }
-
 #footer .main .logo img {
   display: block;
   width: 169px;
@@ -232,14 +383,12 @@
   width: 397px;
   height: 135px;
 }
-
 #footer .main .menu li {
   width: 118px;
   height: 55px;
   padding: 0 38px;
   float: left;
 }
-
 #footer .main .menu li a {
   color: #a8a8a8;
   width: 118px;
@@ -248,7 +397,6 @@
   line-height: 30px;
   font-size: 16px;
 }
-
 #footer .main .menu li a:hover {
   color: #ffffff;
 }
@@ -262,17 +410,14 @@
   float: left;
   padding: 50px 0 20px 33px;
 }
-
 #footer .main .picli li {
   float: left;
   padding: 0 45px;
 }
-
 #footer .main .picli li img {
   width: 100px;
   height: 100px;
 }
-
 #footer .main .picli li p {
   color: #fff;
   font-size: 16px;
@@ -291,7 +436,6 @@
   z-index: 2000;
   margin: 0 20px 215px 0;
 }
-
 #mao .m1 {
   display: block;
   border: 1px solid #dfdfdf;
@@ -304,7 +448,6 @@
   color: #fff;
   line-height: 16px;
 }
-
 #mao .m1 .icon-wenjian {
   display: block;
   width: 100%;
@@ -315,7 +458,6 @@
   font-size: 20px;
   color: #3a3f4a;
 }
-
 #mao .m1 span {
   display: none;
   font-size: 16px;
@@ -335,7 +477,6 @@
   color: #fff;
   line-height: 16px;
 }
-
 #mao .m2 .icon-dizhi {
   display: block;
   width: 100%;
@@ -346,7 +487,6 @@
   font-size: 20px;
   color: #3a3f4a;
 }
-
 #mao .m2 span {
   display: none;
   font-size: 16px;
@@ -367,7 +507,6 @@
   color: #3a3f4a;
   line-height: 16px;
 }
-
 #mao .m3 .icon-gouwuche {
   display: block;
   width: 100%;
@@ -377,7 +516,6 @@
   font-size: 20px;
   color: #3a3f4a;
 }
-
 #mao .m3 span {
   display: block;
   font-size: 13px;
@@ -399,7 +537,6 @@
   line-height: 16px;
   border: 1px solid #dfdfdf;
 }
-
 #mao .m4 .icon-qq {
   display: block;
   width: 100%;
@@ -408,7 +545,6 @@
   font-size: 20px;
   color: #3a3f4a;
 }
-
 #mao .m4 span {
   display: none;
   font-size: 16px;
@@ -425,7 +561,6 @@
   width: 45px;
   height: 45px;
 }
-
 #totop a {
   width: 43px;
   height: 31px;
@@ -437,13 +572,11 @@
   text-align: center;
   padding-top: 12px;
 }
-
 #totop a .span1 {
   margin-top: 20px;
   font-size: 16px;
   font-weight: 700;
 }
-
 #totop a .span2 {
   display: none;
   font-size: 16px;
@@ -510,11 +643,9 @@
   padding: 30px 0 40px;
   text-align: center;
 }
-
 #footer-end p {
   color: #777;
 }
-
 #footer-end p a {
   color: #777;
 }
@@ -536,7 +667,6 @@
   padding: 0px;
   background-color: white;
 }
-
 #loginbox .close {
   display: block;
   position: absolute;
@@ -557,7 +687,6 @@
   font-size: 0;
   z-index: 3;
 }
-
 #loginbox .login-method .qq-login {
   display: inline-block;
   *display: inline;
@@ -565,14 +694,12 @@
   width: 50%;
   text-align: center;
 }
-
 #loginbox .login-method .qq-login a {
   background: #31a4f6;
   height: 50px;
   width: 311px;
   display: block;
 }
-
 #loginbox .login-method .qq-login a span {
   display: block;
   height: 50px;
@@ -588,13 +715,11 @@
   width: 50%;
   text-align: center;
 }
-
 #loginbox .login-method .wx-login a {
   height: 50px;
   width: 311px;
   display: block;
 }
-
 #loginbox .login-method .wx-login a span {
   display: block;
   height: 50px;
@@ -609,7 +734,6 @@
   height: 22px;
   padding: 12px 10px;
 }
-
 #loginbox .remind div {
   font-size: 14px;
   line-height: 22px;
@@ -633,7 +757,6 @@
   margin-bottom: 30px;
   zoom: 1;
 }
-
 #loginbox .qq .text a {
   color: #3481cf;
 }
@@ -651,7 +774,6 @@
 #loginbox .qq {
   margin-top: 20px;
 }
-
 #loginbox .qq .checklist {
   height: 16px;
   margin-bottom: 8px;
@@ -671,17 +793,14 @@
   z-index: 1;
   text-align: center;
 }
-
 #loginbox .wx .title {
   text-align: center;
   font-size: 20px;
 }
-
 #loginbox .wx .wx-erweima {
   width: 280px;
   margin: 15px auto 0;
 }
-
 #loginbox .wx .wx-erweima img {
   width: 100%;
   border: 1px solid #E2E2E2;
@@ -692,3 +811,5 @@
   font-weight: 400;
   padding: 7px 14px;
 }
+
+/*# sourceMappingURL=shouye.css.map */

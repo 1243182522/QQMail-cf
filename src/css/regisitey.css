@@ -36,7 +36,6 @@
   position: relative;
   z-index: 1;
 }
-
 #top .list {
   float: right;
   margin: 20px 40px 0 0;
@@ -45,12 +44,10 @@
   padding: 10px 0 0;
   line-height: 24px;
 }
-
 #top .feedback {
   margin-right: 60px;
   opacity: .6;
 }
-
 #top .feedback .text {
   color: #000;
 }
@@ -59,7 +56,6 @@
   opacity: .6;
   color: #000;
 }
-
 #top .language .select {
   list-style: none;
   text-align: left;
@@ -67,7 +63,6 @@
   display: none;
   opacity: 0.6;
 }
-
 #top .language .select li {
   padding-top: 16px;
 }
@@ -75,13 +70,11 @@
 #top .lianghao {
   padding: 0;
 }
-
 #top .lianghao .lianghao-entry {
   position: relative;
   display: block;
   float: right;
 }
-
 #top .lianghao .lianghao-entry .text {
   border-radius: 6px;
   background: #f54444;
@@ -94,7 +87,6 @@
   color: #fff;
   font-weight: 300;
 }
-
 #top .lianghao .lianghao-entry img {
   position: absolute;
   left: 0;
@@ -113,13 +105,11 @@
   padding: 0;
   display: none;
 }
-
 #top .lianghao .search .upper {
   border-bottom: solid 1px #f0f0f0;
   height: 49px;
   position: relative;
 }
-
 #top .lianghao .search .upper .icon {
   display: block;
   position: relative;
@@ -132,7 +122,6 @@
   z-index: 1;
   transition: none;
 }
-
 #top .lianghao .search .upper .icon .icon-img {
   transition: none;
   margin: auto;
@@ -157,7 +146,6 @@
   font-size: 16px;
   padding: 0 10px;
 }
-
 #top .lianghao .search .inp .placeholder {
   position: absolute;
   left: 10px;
@@ -166,7 +154,6 @@
   font-weight: lighter;
   color: #aaa;
 }
-
 #top .lianghao .search .inp #lianghao-key {
   width: 100%;
   background: 0 0;
@@ -182,12 +169,10 @@
   text-align: center;
   line-height: 1;
 }
-
 #top .lianghao .search .bot .detail {
   margin-bottom: 24px;
   font-size: 16px;
 }
-
 #top .lianghao .search .bot .detail a {
   outline: 0;
   text-decoration: none;
@@ -215,14 +200,12 @@
   position: relative;
   height: 100%;
 }
-
 #right .main {
   position: absolute;
   padding-bottom: 10px;
   top: 100px;
   width: 100%;
 }
-
 #right .main .from {
   position: relative;
   margin: 0 auto;
@@ -244,7 +227,6 @@
   line-height: 1.2;
   color: #333;
 }
-
 #right .main .from .head a {
   outline: 0;
   color: #359eff;
@@ -347,7 +329,6 @@
   line-height: 1;
   overflow: hidden;
 }
-
 .password-tips-group .password-tips {
   padding: 0 0 0 24px;
   font-size: 14px;
@@ -379,7 +360,6 @@
   line-height: 1;
   margin-top: 5px;
 }
-
 .phone-area .input-tips-wrap .input-tips {
   font-size: 14px;
   height: 14px;
@@ -421,7 +401,6 @@ form div #submit {
 .guiding-list {
   padding-left: 18px;
 }
-
 .guiding-list a {
   outline: 0;
   text-decoration: none;
@@ -436,3 +415,5 @@ form div #submit {
   text-align: center;
   margin: 30px 0;
 }
+
+/*# sourceMappingURL=regisitey.css.map */
