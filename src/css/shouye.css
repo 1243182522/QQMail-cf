@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #header {
   height: 156px;
   background: #0e0e0f;
@@ -232,7 +233,7 @@
 }
 
 .flash_bar .dq {
-  /* margin: 0 4px; */
+  /* margin : 0 4px; */
   display: block;
   float: left;
   width: 28px;
@@ -810,6 +811,125 @@ img {
   font-size: 13px;
   font-weight: 400;
   padding: 7px 14px;
+}
+
+.zh {
+  position: relative;
+  height: 100%;
+  top: 50%;
+  margin-top: -200px;
+}
+.zh .zhtips {
+  position: relative;
+  margin: 0 auto 36px;
+  z-index: 11;
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}
+.zh .zhtips .zhtips-top {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.login_form {
+  width: 272px;
+  margin: 0 auto;
+}
+.login_form .uinArea {
+  height: 55px;
+  position: relative;
+  z-index: 10;
+}
+
+.input_tips, .web_login .input_tips_focus {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #aaa;
+  cursor: text;
+}
+
+.inputOuter {
+  width: 272px;
+  height: 42px;
+  background: url(https://imgcache.qq.com/ptlogin/v4/style/40/images/icon_3_tiny.png) -1px -1px no-repeat;
+}
+.inputOuter .inputstyle {
+  width: 258px;
+  position: relative;
+  top: 2px;
+  left: 2px;
+  height: 18px;
+  padding: 10px 0 10px 10px;
+  line-height: 18px;
+  border: none;
+  background: 0 0;
+  color: #333;
+  font-family: Verdana,Tahoma,Arial;
+  font-size: 16px;
+}
+
+.input_password {
+  position: absolute;
+  top: 160px;
+  left: 188px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #aaa;
+  cursor: text;
+}
+
+.submit {
+  position: relative;
+  height: 40px;
+  background-color: #86ce2f;
+  margin-top: 13px;
+}
+.submit .login_button {
+  position: absolute;
+  left: 0;
+  outline: 0;
+  width: 100%;
+}
+.submit .login_button .btn {
+  width: 100%;
+  height: 40px;
+  line-height: 35px;
+  border: none;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Microsoft Yahei","微软雅黑",SimHei,"黑体","Hiragino Sans GB",STHeiTi,sans-serif;
+  color: #fff;
+  background: 0 0;
+  cursor: pointer;
+}
+
+.zh-bottom {
+  height: 16px;
+  margin-bottom: 8px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  text-align: right;
+  font-size: 12px;
+  top: 325px;
+}
+.zh-bottom .link {
+  color: #666;
+}
+.zh-bottom .dotted {
+  color: #bfbfbf;
+  margin: 0 5px;
+}
+
+.clearfix li:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, -2px, 0);
 }
 
 /*# sourceMappingURL=shouye.css.map */

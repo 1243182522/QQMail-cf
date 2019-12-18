@@ -25,9 +25,10 @@
     overflow           : hidden;
     background-repeat  : no-repeat;
     background-position: center;
-    background-size    : cover;
+    background-size    : 480px 100%;
+    transform: 0.5s;
+    background-image: url(https://4.url.cn/zc/v3/img/01-1.jpg);
 }
-
 #top {
     min-width : 560px;
     top       : 0;

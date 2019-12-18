@@ -136,12 +136,12 @@ $float     :left;
     }
 }
 
- #header .secondnav {
-    height  : 470px;
-    width   : 100%;
-    position: absolute;
-    top     : 100%;
-    z-index: 9999;
+#header .secondnav {
+    height    : 470px;
+    width     : 100%;
+    position  : absolute;
+    top       : 100%;
+    z-index   : 9999;
     background: #ffffff;
 
     .navmain {
@@ -216,11 +216,11 @@ $float     :left;
 }
 
 #body .banner .slidebann a {
-    margin    : 0 auto;
-    min-height: 346px;
-    height    : auto;
-    min-width : 1240px;
-    width     : 100%;
+    margin       : 0 auto;
+    min-height   : 346px;
+    height       : auto;
+    min-width    : 1240px;
+    width        : 100%;
     // display   : none;
 }
 
@@ -249,60 +249,66 @@ $float     :left;
 }
 
 .flash_bar .no {
-    margin: 0 4px;
-    display: block;
-    float: left;
-    width: 28px;
-    height: 4px;
-    cursor: pointer;
-    background: rgb(255,255,255);
-    background: rgba(255,255,255,0.2);
+    margin    : 0 4px;
+    display   : block;
+    float     : left;
+    width     : 28px;
+    height    : 4px;
+    cursor    : pointer;
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 .flash_bar .dq {
-    /* margin: 0 4px; */
-    display: block;
-    float: left;
-    width: 28px;
-    height: 4px;
-    cursor: pointer;
+    /* margin : 0 4px; */
+    display   : block;
+    float     : left;
+    width     : 28px;
+    height    : 4px;
+    cursor    : pointer;
     background: #ffc933;
 }
 
 .mid {
-    width: 1280px;
-    margin: 0 auto;
+    width   : 1280px;
+    margin  : 0 auto;
     position: relative;
 }
+
 .index-main {
-    margin-top: -30px;
+    margin-top    : -30px;
     padding-bottom: 50px;
-    background: #fff;
-    border-radius: 8px;
+    background    : #fff;
+    border-radius : 8px;
 }
+
 .index-tit {
-    padding: 50px 50px 0;
+    padding    : 50px 50px 0;
     line-height: 32px;
-    font-size: 14px;
+    font-size  : 14px;
 }
+
 .index-tit h3 {
     margin-right: 20px;
-    display: inline-block;
-    font-weight: bold;
-    color: #333;
-    font-size: 28px;
+    display     : inline-block;
+    font-weight : bold;
+    color       : #333;
+    font-size   : 28px;
 }
+
 .index-tit .link-more {
-    font-size: 16px;
-    color: #333;
+    font-size  : 16px;
+    color      : #333;
     line-height: 30px;
 }
+
 .fr {
     float: right;
 }
+
 .adbox {
     margin: 15px auto 0;
-    width: 1180px;
+    width : 1180px;
     height: 240px;
 }
 
@@ -313,51 +319,58 @@ $float     :left;
 img {
     display: block;
 }
+
 .good-list.index-glist {
-    padding-top: 20px;
+    padding-top   : 20px;
     padding-bottom: 0;
 }
+
 .good-list ul {
     margin-left: 40px;
-    width: 1200px;
-    height: 360px;
+    width      : 1200px;
+    height     : 360px;
 }
 
 .good-list ul li {
-    margin: 0 10px 20px;
-    float: left;
-    width: 280px;
-    height: 356px;
-    border: 1px solid #eee;
-    position: relative;
-    z-index: 1;
+    margin            : 0 10px 20px;
+    float             : left;
+    width             : 280px;
+    height            : 356px;
+    border            : 1px solid #eee;
+    position          : relative;
+    z-index           : 1;
     -webkit-transition: all .2s linear;
-    transition: all .2s linear;
-    overflow: hidden;
+    transition        : all .2s linear;
+    overflow          : hidden;
 }
+
 .good-list.index-glist ul li {
-    margin-right: 7px;
+    margin-right : 7px;
     margin-bottom: 0;
 }
+
 .good-list ul li .good-info {
     margin-top: 18px;
     text-align: center;
-    overflow: hidden;
+    overflow  : hidden;
 }
+
 .good-list ul li p {
-    overflow: hidden;
-    white-space: nowrap;
+    overflow     : hidden;
+    white-space  : nowrap;
     text-overflow: ellipsis;
-    line-height: 24px;
+    line-height  : 24px;
 }
+
 .good-list ul li .good-name {
     font-size: 14px;
-    color: #444;
+    color    : #444;
 }
+
 .good-list ul li .good-pri {
     line-height: 25px;
-    font-size: 16px;
-    color: #f7545f;
+    font-size  : 16px;
+    color      : #f7545f;
 }
 
 
@@ -865,4 +878,118 @@ img {
     font-size  : 13px;
     font-weight: 400;
     padding    : 7px 14px;
+}
+
+.zh {
+    position  : relative;
+    height    : 100%;
+    top       : 50%;
+    margin-top: -200px;
+
+    .zhtips {
+        position  : relative;
+        margin    : 0 auto 36px;
+        z-index   : 11;
+        font-size : 16px;
+        color     : #666;
+        text-align: center;
+
+        .zhtips-top {
+            font-size    : 20px;
+            color        : #333;
+            margin-bottom: 16px;
+        }
+    }
+}
+.login_form {
+    width: 272px;
+    margin: 0 auto;
+    .uinArea {
+        height: 55px;
+        position: relative;
+        z-index: 10;
+    }
+}
+.input_tips, .web_login .input_tips_focus {
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #aaa;
+    cursor: text;
+}
+.inputOuter {
+    width: 272px;
+    height: 42px;
+    background: url(https://imgcache.qq.com/ptlogin/v4/style/40/images/icon_3_tiny.png) -1px -1px no-repeat;
+    .inputstyle {
+        width: 258px;
+        position: relative;
+        top: 2px;
+        left: 2px;
+        height: 18px;
+        padding: 10px 0 10px 10px;
+        line-height: 18px;
+        border: none;
+        background: 0 0;
+        color: #333;
+        font-family: Verdana,Tahoma,Arial;
+        font-size: 16px;
+    }
+}
+.input_password{
+    position: absolute;
+    top: 160px;
+    left: 188px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #aaa;
+    cursor: text;
+}
+.submit {
+    position: relative;
+    height: 40px;
+    background-color: #86ce2f;
+    margin-top: 13px;
+    .login_button {
+        position: absolute;
+        left: 0;
+        outline: 0;
+        width: 100%;
+        .btn {
+            width: 100%;
+            height: 40px;
+            line-height: 35px;
+            border: none;
+            font-size: 17px;
+            font-weight: 400;
+            font-family: "Microsoft Yahei","微软雅黑",SimHei,"黑体","Hiragino Sans GB",STHeiTi,sans-serif;
+            color: #fff;
+            background: 0 0;
+            cursor: pointer;
+        }
+    }
+}
+.zh-bottom {
+    height: 16px;
+    margin-bottom: 8px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    text-align: right;
+    font-size: 12px;
+    top: 325px;
+    .link {
+        color: #666;
+    }
+    .dotted {
+        color: #bfbfbf;
+        margin: 0 5px;
+    }
+}
+.clearfix li:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    transform: translate3d(0, -2px, 0);
 }

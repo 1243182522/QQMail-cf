@@ -20,7 +20,7 @@ class Banner {
         let strban = ''
         for (let v of data) {
             strban +=
-                `<a href=""><img src="${v.src}" alt=""></a>`
+                `<a href="javascript:;"><img src="${v.src}" alt=""></a>`
         }
         this.banner.innerHTML = strban + `<div class="flash_bar">
         <div class="dq"></div>
