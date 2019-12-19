@@ -26,9 +26,10 @@
     background-repeat  : no-repeat;
     background-position: center;
     background-size    : 480px 100%;
-    transform: 0.5s;
-    background-image: url(https://4.url.cn/zc/v3/img/01-1.jpg);
+    transform          : 0.5s;
+    background-image   : url(https://4.url.cn/zc/v3/img/01-1.jpg);
 }
+
 #top {
     min-width : 560px;
     top       : 0;
@@ -293,23 +294,21 @@
 
 .error {
     padding-top: 8px;
-    height     : 18px;
+    height     : auto;
     position   : relative;
     line-height: 1;
 }
 
-.hint {
-    opacity: 0;
-    height : 0 !important;
+.password-tips-group {
+    display: none;
 }
 
 .flag .inp-ok {
-    background: url(https://4.url.cn/zc/v3/img/tick.png) no-repeat;
-    width     : 20px;
-    height    : 15px;
-    display   : block;
-    float     : right;
-    margin    : 18.5px 10px;
+    width  : 20px;
+    height : 15px;
+    display: block;
+    float  : right;
+    margin : 18.5px 10px;
 }
 
 #nickname {
@@ -331,7 +330,8 @@
     line-height: 18px;
     height     : 18px;
     position   : absolute;
-    bottom     : 0;
+    bottom     : -10px;
+    left       : -15px;
 }
 
 #pass {
@@ -347,9 +347,10 @@
 }
 
 .password-tips-group {
-    height     : 78px;
-    line-height: 1;
-    overflow   : hidden;
+    height       : 78px;
+    border-radius: 5px;
+    border       : 1px solid #ccc;
+    margin-top   : 5px;
 
     .password-tips {
         padding    : 0 0 0 24px;
@@ -407,6 +408,8 @@ form div #submit {
     height          : 60px;
     margin          : 40px 0 8px;
     font-size       : 24px;
+    display         : block;
+    line-height     : 60px;
 }
 
 #duoxuan {
@@ -433,9 +436,10 @@ form div #submit {
         font-size      : 14px;
     }
 }
-#right .footer{
-    font-size: 14px;
-    color: #bbb;
+
+#right .footer {
+    font-size : 14px;
+    color     : #bbb;
     text-align: center;
-    margin: 30px 0;
+    margin    : 30px 0;
 }

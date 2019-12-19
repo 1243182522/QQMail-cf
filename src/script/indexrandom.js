@@ -2,8 +2,8 @@ import { ajax, $ } from "./tools.js"
 
 class Random {
     constructor() {
-        this.url = 'http://localhost/QQMail-cf/php/'
-        this.urls = 'http://localhost/QQMail-cf/php/'
+        this.url = 'http://10.31.161.152/QQMail-cf/php/'
+        this.urls = 'http://10.31.161.152/QQMail-cf/php/'
         this.bigpic = $(".adbox", "all")
         this.smallpic = $(".clearfix li", "all")
         this.nav = $(".bottommain .all")
@@ -40,7 +40,7 @@ class Random {
         ajax({
             url: _this.urls + 'indexrandom(s).php',
             dataType: 'json'
-        }).then(function (datas) {
+        }).then( (datas)=> {
             _this.randers(datas)
         })
         this.effect()
@@ -63,7 +63,7 @@ class Random {
             let strs = ''
             strs +=
                 `
-            <a href="javascript:;">
+            <a href="details.html?sid=${datas[j].sid}">
             <img src="${datas[j].src}" alt="" style="width:100%;">
             <div class="good-info">
                 <p class="good-name">${datas[j].title}</p>

@@ -67,17 +67,17 @@
                     </div>
                     <div class="head">每一天，乐在沟通。</div>
                 </div>
-                <form action="">
+                <form action="" method="">
                     <div class="textinput">
                         <div class="flag">
                             <div class="inp-ok"></div>
                         </div>
                         <label for="nickname" class="nametitle">昵称</label>
                         <div class="inp-other">
-                            <input type="text" name="" id="nickname">
+                            <input type="text" name="username" id="nickname">
                         </div>
                         <div class="error hint">
-                            <div class="error-tips">昵称不能为空</div>
+                            <div class="error-tips"></div>
                         </div>
                     </div>
                     <div class="textinput">
@@ -86,10 +86,10 @@
                             <div class="inp-ok"></div>
                         </div>
                         <div class="inp-other">
-                            <input type="text" name="" id="pass">
+                            <input type="password" name="password" id="pass">
                         </div>
                         <div class="error hint">
-                            <div class="error-tips">密码不能为空</div>
+                            <div class="error-tips"></div>
                         </div>
                         <div class="password-tips-group hint">
                             <div class="password-tips">不能包括空格</div>
@@ -104,7 +104,10 @@
                             </div>
                             <label for="phone" class="nametitle">手机号码</label>
                             <div class="phone">
-                                <input id="phone" type="text">
+                                <input id="phone" name="phonenum" type="text">
+                            </div>
+                            <div class="error hint">
+                                <div class="error-tips"></div>
                             </div>
                             <div class="input-tips-wrap">
                                 <div class="input-tips">可通过该手机号找回密码</div>
@@ -112,10 +115,10 @@
                         </div>
                     </div>
                     <div>
-                        <input type="submit" name="" id="submit" value="立即注册">
+                        <a href="javascript:;" id="submit">立即注册</a>
                     </div>
                     <div class="guiding">
-                        <input type="checkbox" id="duoxuan">
+                        <input type="checkbox" checked id="duoxuan">
                         <label for="duoxuan" class="duoxuantishi"> 我已阅读并同意相关服务条款和隐私政策</label>&nbsp;
                         <img src="https://4.url.cn/zc/v3/img/down.png" alt="">
                         <img src="https://4.url.cn/zc/v3/img/up.png" alt="" style="display: none;">

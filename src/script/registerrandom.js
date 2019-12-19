@@ -2,7 +2,7 @@ import { $, ajax } from "./tools.js";
 
 class Regrandom {
     constructor() {
-        this.url = 'http://localhost/QQMail-cf/php/'
+        this.url = 'http://10.31.161.152/QQMail-cf/php/'
         this.left=$('#left')
     }
 
@@ -22,7 +22,6 @@ class Regrandom {
             if(num==5){
                 num=1
             }
-            
         },3000)
     }
 }

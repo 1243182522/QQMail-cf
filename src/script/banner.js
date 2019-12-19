@@ -2,7 +2,7 @@ import { ajax, $, addClass, removeClass } from "./tools.js"
 
 class Banner {
     constructor() {
-        this.url = 'http://localhost/QQMail-cf/php/'
+        this.url = 'http://10.31.161.152/QQMail-cf/php/'
         this.banner = $('.slidebann')
         this.time = ''
         this.flag = true
